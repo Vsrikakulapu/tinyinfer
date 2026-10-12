@@ -1,0 +1,17 @@
+{
+  "fp32": {
+    "acc": 0.7167,
+    "size_mb": 0.581547,
+    "latency_ms": 1.4204001426696777,
+    "device": "cuda"
+  },
+  "int8_dynamic": {
+    "acc": 0.733,
+    "size_mb": 0.573737,
+    "latency_ms": 2.575206756591797,
+    "device": "cpu"
+  },
+  "onnx_runtime_cpu": {
+    "latency_ms": 0.3513050079345703
+  }
+}
